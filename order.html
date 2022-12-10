@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <title>Order Now</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="img/pizzadance.gif" alt="">
+            <h1>Tropical Pizza</h1>
+            <p>Treat your Feast</p>
+        </div>
+    </header>
+    <div class="menubar">
+        <a href="index.html" target="_blank">Home</a>
+        <a href="menu.html" target="_blank">Veg Menu</a>
+        <a href="menunv.html" target="_blank"> Non Veg Menu</a>
+        <a href="order.html" target="_blank">Order Now</a>
+        <a href="contact.html" target="_blank">Contact</a>
+        <a href="about.html"target="_blank" >About</a>
+    </div>
+    <div class="content">
+
+        <div class="addressForm">
+            <div class="row">
+                <div class="column">
+                    <div class="form1">
+                        <form>
+                            <label for="fname">First Name:</label><br>
+                            <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+                            <label for="lname">Last Name:</label><br>
+                            <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+                            <label for="pnumber">Mobile Number:</label><br>
+                            <input type="tel" name="pnumber" id="pnumber" placeholder="mobile number"><br>
+                            <label for="Email">Email ID:</label> <br>
+                            <input type="email" id="Email" name="Email" placeholder="Email id"><br>
+                            <label for="password">password:</label><br>
+                            <input type="password" name="" id="password" placeholder="password">
+                        </form>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="form2">
+                        <form>
+                            <label for="address">Address:</label><br>
+                            <textarea name="address" id="address" cols="20" rows="10" placeholder="Enter your Address here"></textarea>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="form3">
+                        <form >
+                            <label for="pizza">Choose your pizza:</label><br>
+                            <select>
+                                <optgroup label="veg">
+                                    <option value="corn">Golden Corn</option>
+                                    <option value="paneer">Tasty Paneer</option>
+                                    <option value="vegblast">Veggie Blast</option>
+                                </optgroup>
+                                <optgroup label="nonveg">
+                                    <option value="chsausage">Chicken Sausage</option>
+                                    <option value="chpep">Chicken Pepperoni</option>
+                                    <option value="chloaded">Chicken Fully Loaded</option>
+                                </optgroup>
+                            </select>
+
+                            <h3>Choose Toppings</h3>
+                            <form> 
+                                <input type="checkbox" name="pep" id="pep">
+                                <label for="pepperoni">Xtra Pepperoni</label><br>
+                                <input type="checkbox" name="cheese" id="cheese">
+                                <label for="pepperoni">Cheese</label><br>
+                                <input type="checkbox" name="onion" id="onion">
+                                <label for="pepperoni">Onion</label><br>
+                                <input type="checkbox" name="Mushroom" id="Mushroom">
+                                <label for="pepperoni">Mushroom</label><br>
+                                <button class="submit" type="button" onclick="alert('Your Order Has Been Placed Succesfully')">Sumbit</button>
+                            </form>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <div class="footer">
+        <footer>
+            <p>This page is created for CSE326 Assignment by @SANJAI @KHUSHI @ISHITA</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,175 @@
+*{
+    border: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+.header{
+    text-align: center;
+    background-image: url('img/pizzatime.gif');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: red;
+    background-attachment: fixed;
+}
+.header img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position:absolute;
+    top: 4px;
+    left: 50px;
+}
+.header h1{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+body{
+    background-image: url('img/bg_3.jpg');
+}
+
+.menubar{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menubar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menubar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.menubar a:active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.marq marquee{
+    border-radius: 50%;
+    position: absolute;
+}
+
+.marq img{
+    border-radius: 50%;
+    background-image: url('img/abstract.gif');
+    padding: 3px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column{
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align:  middle;
+}
+
+.nvmenu{
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: double;
+    color: #f2f2f2;
+    padding: 20px;
+    text-shadow: #f50909;
+}
+.nvmenu h2{
+    background-color: #f50909;
+    text-shadow: 4px 4px black;
+}
+
+.pizzamenu div{
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.pizzamenu .row{
+    display: flex;
+}
+
+.pizzamenu  .row .column{
+    flex: 25.33%;
+    padding: 5px;
+    background-image: url('img/retro-bg.jpg');
+}
+
+.pizzamenu .row .column h3{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: solid;
+    color: #e8314d;
+    background-color: #181a1b;
+    border-right: 10px;
+}
+
+.pizzamenu .row .column p{
+    text-decoration: solid;
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-size: 26px;
+    text-transform: capitalize;
+}
+.pizzamenu .row .column .menu-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    padding-top: 5px;
+    background-image: url('img/img-bg.gif');
+}
+
+.pizzamenu .row .column a{
+
+    margin-left: 40%;
+    margin-bottom: 0%;
+    float: none;
+    display: block;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #e8314d;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.pizzamenu .row .column a:hover{
+    background-color: #f2f2f2;
+    color: #e8314d;
+}
+.pizzamenu .row .column a:active{
+    background-color: #e8314d;
+    color: #f2f2f2;
+}
+
+.footer{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    background-color: #1b252e;
+    color: #ddd;
+    font-weight: 400;
+    text-decoration:solid;
+    text-align: center;
+    border-style: solid none none none;
+    border-width: 5px;
+    border-color: #f50909;
+}
+
